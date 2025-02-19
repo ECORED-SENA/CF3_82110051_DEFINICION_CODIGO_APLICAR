@@ -104,10 +104,32 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Selección del código de soldadura según producto a fabricar',
+      referencia:
+        'INGEDEMY. (2024). AWS D1.5: CÓDIGO DE SOLDADURA PARA PUENTES. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6bM7Tbmds94',
+    },
+    {
+      tema: 'Equipos sometidos a presión',
+      referencia:
+        'Gestión RH. (2020). ¿Qué es un recipiente sujeto a presión?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=1wdrR-Zfq18',
+    },
+    {
+      tema: 'Estructuras',
+      referencia:
+        'Ingeniero Del Acero. (2020). Diseño de elementos a tensión  área neta, bloque de cortante, fluencia y ruptura. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=zRi8XBbqUDY&list=PLDngK8m7_4cnL3kfC4U8T2v4Vijwh1QLf ',
+    },
+    {
+      tema: 'Documentos normativos utilizados en Colombia',
+      referencia: 'SENA (2005). Evaluación y Control.',
+      tipo: 'Documento ',
+      link: 'downloads/Anexo1.pdf',
     },
   ],
   glosario: [
