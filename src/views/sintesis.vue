@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis representa la definición del código a aplicar según el proyecto a realizar, considerando aspectos como la selección del código en función del producto a fabricar, los equipos sometidos a presión (calderas, recipientes a presión, intercambiadores de calor, tuberías y barcos), los tanques de almacenamiento destinados a petróleo, derivados y recipientes a presión. Además, incluye estructuras tales como tipos estáticos, materiales de aluminio, láminas de acero, acero de refuerzo y estructuras en puentes y grúas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
