@@ -3,32 +3,211 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 55%
+    right: 80%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 58%
+    right: 20%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #95DCB3
   
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #FE8849 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #FE8849 
+
+.bg
+  &-1
+    background-image: url(../assets/curso/temas/tema1/bg1.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-2
+    background-image: url(../assets/curso/temas/tema1/bg2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-3
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FEE6DA;
+  &-4
+    background-image: url(../assets/curso/temas/tema1/bg3.jpg)
+    background-size: cover
+  &-c4
+    background-image: url(../assets/curso/temas/tema1/bg3.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-c6
+    background-image: url(../assets/curso/temas/tema1/bg-icon-svg.svg)
+    background-repeat: repeat-x
+    background-position: center
+
+.titulo-tres
+  position: relative
+  background: $color-acento-contenido
+  display: inline-block
+  padding: 0.5rem 1.4rem 0.5rem 80px
+
+  h3, h4
+    margin: 0
+    line-height: 110% !important
+    color: white !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: -12px
+    left: 0
+    width: 100%
+    height: 67px
+    transform: translateX(8px)
+    background: url('../assets/curso/temas/tema1/icon1.svg') transparent no-repeat bottom left
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem 
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
 
-figcaption
-  font-weight: normal
- 
+
+
+

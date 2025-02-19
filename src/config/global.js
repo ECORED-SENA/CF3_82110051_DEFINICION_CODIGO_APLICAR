@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Definición del código a aplicar',
+    Description:
+      'El componente formativo aborda la importancia de los códigos de soldadura en proyectos metálicos para garantizar seguridad, calidad y cumplimiento normativo. Describe su aplicación en estructuras, equipos sometidos a presión, tanques de almacenamiento y otros componentes. Incluye normativas clave como AWS y ASME, su relación contractual y requisitos técnicos. Además, ofrece glosario, bibliografía y créditos de elaboración.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,25 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Selección del código de soldadura según producto a fabricar',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Equipos sometidos a presión',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Estructuras',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Documentos normativos utilizados en Colombia',
+            hash: 't_1_3',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -86,7 +88,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/82110051_CF3.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -110,14 +112,76 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acero',
+      significado:
+        'aleación de hierro con pequeñas cantidades de carbono, diseñada para procesos de soldadura.',
+    },
+    {
+      termino: 'Calderas',
+      significado:
+        'equipos para generar vapor o transferir calor a un fluido, regulados por normas específicas.',
+    },
+    {
+      termino: 'Consumibles',
+      significado:
+        'materiales usados en soldadura, como electrodos y gases, que se integran al proceso.',
+    },
+    {
+      termino: 'Fluencia',
+      significado:
+        'fenómeno metalúrgico entre deformaciones elásticas y plásticas, caracterizado por alta deformación.',
+    },
+    {
+      termino: 'Intercambiador',
+      significado:
+        'dispositivo que transfiere calor entre dos medios separados o en contacto.',
+    },
+    {
+      termino: 'Mandatorio',
+      significado:
+        'actividad que debe realizarse según procedimientos establecidos sin excepciones.',
+    },
+    {
+      termino: 'Materiales base',
+      significado: 'acero u otro metal que será soldado en el proceso.',
+    },
+    {
+      termino: 'Puente grúa',
+      significado:
+        'estructura usada en fábricas para izar y desplazar cargas pesadas de forma segura y eficiente.',
+    },
+    {
+      termino: 'Tanques',
+      significado:
+        'recipientes de almacenamiento de líquidos o gases, diseñados para evitar degradación ambiental.',
+    },
+    {
+      termino: 'Tuberías',
+      significado:
+        'conductos diseñados para transportar fluidos, como gas o petróleo, bajo estándares técnicos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'American Petroleum Institute. (2015).<em>Norma API 1104</em>. ',
+      link: 'http://es.scribd.com/doc/98471009/Norma-API-1104-Traducida',
+    },
+    {
+      referencia:
+        'American Welding Society. (2013). <em>Norma para la certificación de inspectores de soldaduras de la AWS.</em> ',
+      link: 'https://www.aws.org/library/doclib/QC1-2007-Spanish.pdf',
+    },
+    {
+      referencia:
+        'Sociedad Americana de Ingenieros Mecánicos. (2015). <em>Código ASME Sección IX - Soldadura: Desarrollo y calificación de procedimientos y soldadores.</em> ',
+      link: 'https://drive.google.com/file/d/0Bzx8Vj6lHfXaX0dEZzJveFNyS00/edit',
+    },
+    {
+      referencia:
+        ' Solano Montaña, E. (2007). <em>WPS ASME - Calificación y procedimiento de platina y tubería según ASME.</em> ',
+      link:
+        'http://metalurgia-metalurgia.blogspot.com.co/2007/08/wps-asme.html',
     },
   ],
   creditos: [
