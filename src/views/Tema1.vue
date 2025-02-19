@@ -58,7 +58,7 @@
 
                   .col-md-4
                     figure
-                      img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
+                      img(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen')
 
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-6.mb-4.mb-md-0.p-6
@@ -67,7 +67,7 @@
 
                   .col-md-4
                     figure
-                      img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
+                      img(src='@/assets/curso/temas/tema1/img5.png', alt='Texto que describa la imagen')
 
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-6.mb-4.mb-md-0.p-6
@@ -76,7 +76,7 @@
 
                   .col-md-4
                     figure
-                      img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
+                      img(src='@/assets/curso/temas/tema1/img6.png', alt='Texto que describa la imagen')
 
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-6.mb-4.mb-md-0.p-6
@@ -85,7 +85,7 @@
                 
                   .col-md-4
                     figure
-                      img(src='@/assets/curso/temas/tema1/img7.svg', alt='Texto que describa la imagen')
+                      img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
 
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-6.mb-4.mb-md-0.p-6
@@ -94,7 +94,7 @@
 
                   .col-md-4
                     figure
-                      img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
+                      img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen')
 
 
     .row.mb-2.ms-0
@@ -146,7 +146,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img11.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 Estáticas
             p Diseñadas para soportar cargas aplicadas lentamente. Ejemplo: estructuras metálicas para edificios, bodegas y centros comerciales.
@@ -154,7 +154,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img12.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img12.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 En aluminio
             p Diseñadas para soportar cargas aplicadas lentamente. Ejemplo: estructuras metálicas para edificios, bodegas y centros comerciales.
@@ -162,7 +162,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img13.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 En láminas de acero
             p Estructuras fabricadas con láminas de acero, ideales para aplicaciones industriales. Ejemplo: chasises de buses como los del sistema Transmilenio.
@@ -170,7 +170,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img14.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 Acero de refuerzo
             p Utilizadas en columnas y cimientos. Estas estructuras requieren uniones soldadas de alta calidad realizadas por soldadores calificados.
@@ -178,7 +178,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img15.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 Puentes
             p Construcciones complejas de acero diseñadas para permitir el tránsito de personas y vehículos en zonas con desniveles geográficos.
@@ -186,7 +186,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img16.png', alt='Texto que describa la imagen')
           .col-md-6
             h4Puente grúa
             p Estructuras industriales utilizadas para izar y desplazar cargas pesadas. Fabricadas con partes soldadas, sometidas a estrictos estándares normativos.
