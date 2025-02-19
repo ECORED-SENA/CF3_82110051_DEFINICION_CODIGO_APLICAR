@@ -104,7 +104,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/icon1.svg', alt='', style='width: 60px')
           .col
-            h3.text-white.mb-0(style='color: black !important;') Tanques de almacenamiento
+            h3.mb-0.sub_titulo(style='color: black !important;') Tanques de almacenamiento
 
     .row.bg-2.mb-6
       .p-5
@@ -198,7 +198,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/icon1.svg', alt='', style='width: 60px')
           .col
-            h3.text-white.mb-0(style='color: black !important;') Códigos aplicables al diseño y a la soldadura
+            h3.mb-0.sub_titulo(style='color: black !important;') Códigos aplicables al diseño y a la soldadura
 
 
     p El diseño y la soldadura son procesos esenciales en la fabricación de productos metálicos. Ambos se rigen por normativas específicas que aseguran su seguridad, funcionalidad y economía.
@@ -232,83 +232,82 @@
     p.mb4 En Colombia, se emplean normativas internacionales para regular los procesos de diseño y soldadura en estructuras metálicas. A continuación, se presentan los principales documentos:
 
     .row.bg-c4
-      .col-12
-        .row.justify-content-center
+      .carousel-bg
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-3
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema1/img19.png", alt="alt").img400.m-auto
           .col-lg-8
-            .p-4
-              SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img20.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AWS D1.1]
-                  p.text-small.text-center.mb-0 Regula la soldadura de acero al carbono y baja aleación en espesores mayores a 3 mm.
+            SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img20.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AWS D1.1]
+                p.text-small.text-center.mb-0 Regula la soldadura de acero al carbono y baja aleación en espesores mayores a 3 mm.
 
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img21.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AWS D1.2]
-                  p.text-small.text-center.mb-0 Aplica a la fabricación y erección de estructuras de aluminio, excluyendo tuberías y recipientes a presión.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img21.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AWS D1.2]
+                p.text-small.text-center.mb-0 Aplica a la fabricación y erección de estructuras de aluminio, excluyendo tuberías y recipientes a presión.
 
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img22.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AWS D1.3]
-                  p.text-small.text-center.mb-0 Regula la soldadura de acero al carbono en espesores menores o iguales a 4.5 mm.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img22.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AWS D1.3]
+                p.text-small.text-center.mb-0 Regula la soldadura de acero al carbono en espesores menores o iguales a 4.5 mm.
 
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img23.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AWS D1.4]
-                  p.text-small.text-center.mb-0 Establece normas para la soldadura de acero de refuerzo en combinación con aceros al carbono o baja aleación.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img23.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AWS D1.4]
+                p.text-small.text-center.mb-0 Establece normas para la soldadura de acero de refuerzo en combinación con aceros al carbono o baja aleación.
 
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AASHTO/AWS D1.5]
-                  p.text-small.text-center.mb-0 Normativa para la fabricación de componentes de puentes, excluyendo aceros con resistencia a la fluencia superior a 690 MPa y espesores menores a 3 mm.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AASHTO/AWS D1.5]
+                p.text-small.text-center.mb-0 Normativa para la fabricación de componentes de puentes, excluyendo aceros con resistencia a la fluencia superior a 690 MPa y espesores menores a 3 mm.
 
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AWS D1.6]
-                  p.text-small.text-center.mb-0 Cubre soldaduras de aceros inoxidables y combinaciones con aceros al carbono, incluyendo perfiles estructurales y láminas roladas en frío.
-                  
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b BPVC - ASME]
-                  p.text-small.text-center.mb-0 Incluye requisitos para la calificación de soldadores en la construcción de calderas y recipientes a presión.
-                  
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b ASME B31.1 y B31.3]
-                  p.text-small.text-center.mb-0 Regula soldaduras en tuberías para generación de potencia y procesos químicos.
-                  
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b API 650 y API 1104]
-                  p.text-small.text-center.mb-0 Define estándares para tanques de almacenamiento y soldadura en oleoductos.
-                  
-                .tarjeta.tarjeta--slyder.p-4
-                  .row.justify-content-center.mb-3
-                    .col-8
-                      img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
-                  p.text-small.text-center.mb-2.bg-3 #[b AWS A2.4 y AWS A5]
-                  p.text-small.text-center.mb-0 Detalla símbolos para representar uniones soldadas y especificaciones de electrodos.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AWS D1.6]
+                p.text-small.text-center.mb-0 Cubre soldaduras de aceros inoxidables y combinaciones con aceros al carbono, incluyendo perfiles estructurales y láminas roladas en frío.
+                
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b BPVC - ASME]
+                p.text-small.text-center.mb-0 Incluye requisitos para la calificación de soldadores en la construcción de calderas y recipientes a presión.
+                
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b ASME B31.1 y B31.3]
+                p.text-small.text-center.mb-0 Regula soldaduras en tuberías para generación de potencia y procesos químicos.
+                
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b API 650 y API 1104]
+                p.text-small.text-center.mb-0 Define estándares para tanques de almacenamiento y soldadura en oleoductos.
+                
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img24.svg", alt="alt").img100.m-auto
+                p.text-small.text-center.mb-2.bg-3 #[b AWS A2.4 y AWS A5]
+                p.text-small.text-center.mb-0 Detalla símbolos para representar uniones soldadas y especificaciones de electrodos.
 
  
 </template>
