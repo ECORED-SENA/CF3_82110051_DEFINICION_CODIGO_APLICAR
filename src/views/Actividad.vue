@@ -146,7 +146,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'EspEstructuras en aluminio.añol',
+              texto: 'EspEstructuras en aluminio.',
               esCorrecta: false,
             },
             { id: 'c', texto: 'Estructuras estáticas.', esCorrecta: true },
